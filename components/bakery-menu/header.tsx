@@ -43,7 +43,6 @@ const Header = ({ categories, images, ratingAvg, ratingQty, title }: HeaderProps
               bgColor: "white",
               borderRadius: "full",
             }}
-            crossOrigin="anonymous"
           />
 
           <Flex flexDirection="column" gap="2">

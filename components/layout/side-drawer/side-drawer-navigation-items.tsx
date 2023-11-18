@@ -14,15 +14,7 @@ const SideDrawerNavigationItems = ({ onSideDrawerClose }: SideDrawerNavigationIt
 
   return currentUser ? (
     <>
-      <Avatar
-        name={currentUser.name}
-        src={currentUser.image?.src}
-        mb="2"
-        p="5"
-        bg="primary.500"
-        color="white"
-        crossOrigin="anonymous"
-      />
+      <Avatar name={currentUser.name} src={currentUser.image?.src} mb="2" p="5" bg="primary.500" color="white" />
       <chakra.span mb="4" fontWeight="medium">
         {currentUser.name}
       </chakra.span>

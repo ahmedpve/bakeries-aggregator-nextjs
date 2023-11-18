@@ -34,7 +34,7 @@ const BakeryCard = ({ bakery }: BakeryCardProps) => {
       </Box>
 
       <Flex flexGrow="1" px="4" py="2" gap="4">
-        <Avatar src={logoImgUrl} name={title} size="lg" showBorder crossOrigin="anonymous" />
+        <Avatar src={logoImgUrl} name={title} size="lg" showBorder />
         <Flex flexDirection="column" gap="2">
           <chakra.span fontWeight="bold" transitionDuration="slow" _groupHover={{ color: "primary.500" }}>
             {title}

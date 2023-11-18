@@ -39,7 +39,6 @@ const HeaderNavigationItems = () => {
               p="5"
               bg="primary.500"
               color="white"
-              crossOrigin="anonymous"
             />
             <Icon as={BiChevronDown} boxSize="5" />
           </Flex>

@@ -49,7 +49,7 @@ const CartProducts = () => {
       ) : (
         <>
           <Flex alignItems="center" gap="4" mb="4" fontWeight="bold">
-            <Avatar src={logoImgSrc} name={bakery?.title} crossOrigin="anonymous" />
+            <Avatar src={logoImgSrc} name={bakery?.title} />
             <chakra.span>{bakery?.title}</chakra.span>
           </Flex>
 
